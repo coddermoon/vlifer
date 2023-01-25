@@ -1,6 +1,5 @@
 import React from "react";
-import { AiOutlineQuestionCircle, AiOutlineUser } from "react-icons/ai";
-import { CiSearch } from "react-icons/ci";
+
 import { FiSettings } from "react-icons/fi";
 import { navItems } from "../utils/navitems";
 
@@ -17,7 +16,7 @@ const MobileNav = () => {
 
         {
     navItems.map((navItem, index) =>             <a key={index}
-    to=""
+    href="d"
     className="flex gap-2 items-center px-3 py-2 rounded-md text-sm font-medium leading-5  focus:outline-none focus:text-white focus:bg-gray-700"
   >
     <navItem.icons />
@@ -25,11 +24,12 @@ const MobileNav = () => {
   </a>
     )
 }
+
   
 
         <div>
           <a
-            href="#"
+            href="#as"
             className="flex gap-2 items-center px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 focus:outline-none focus:text-white focus:bg-gray-700"
           >
             <FiSettings />
