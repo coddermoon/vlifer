@@ -2,6 +2,7 @@ import React from 'react';
 import { AiOutlineQuestionCircle, AiOutlineUser } from 'react-icons/ai';
 import { CiSearch } from 'react-icons/ci';
 import { FiSettings } from 'react-icons/fi';
+import { navItems } from '../utils/navitems';
 
 const DesktopNav = () => {
     return (
@@ -12,25 +13,18 @@ const DesktopNav = () => {
             <span className="ml-2 text-lg font-medium">solver</span>
           </div>
           <div className=" flex">
-            <a
-              to=""
-              className="flex gap-2 items-center px-3 py-2 rounded-md text-sm font-medium leading-5  focus:outline-none focus:text-white focus:bg-gray-700"
-            >
-              <AiOutlineQuestionCircle />{" "}
-              <span className="hidden md:block">Ask</span>{" "}
-            </a>
-            <a
-              to=""
-              className="flex gap-2 items-center px-3 py-2 rounded-md text-sm font-medium leading-5  focus:outline-none focus:text-white focus:bg-gray-700"
-            >
-              <CiSearch /> <span className="hidden md:block">Find</span>{" "}
-            </a>
-            <a
-              to=""
-              className="flex gap-2 items-center px-3 py-2 rounded-md text-sm font-medium leading-5  focus:outline-none focus:text-white focus:bg-gray-700"
-            >
-              <AiOutlineUser /> <span className="hidden md:block">Users</span>{" "}
-            </a>
+{
+    navItems.map((navItem, index) =>             <a key={index}
+    to=""
+    className="flex gap-2 items-center px-3 py-2 rounded-md text-sm font-medium leading-5  focus:outline-none focus:text-white focus:bg-gray-700"
+  >
+    <navItem.icons />
+    <span className="hidden md:block">{navItem.name}</span>
+  </a>
+    )
+}
+         
+           
           </div>
           <div>
             <a
