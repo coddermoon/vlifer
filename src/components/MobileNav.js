@@ -1,7 +1,8 @@
 import React from "react";
 
 import { FiSettings } from "react-icons/fi";
-import { navItems } from "../utils/navitems";
+import { NavLink } from "react-router-dom";
+import { activeClassName, navItems, normalClassName } from "../utils/navitems";
 
 const MobileNav = () => {
   return (
@@ -9,31 +10,31 @@ const MobileNav = () => {
       <div className="flex items-center justify-between p-4">
         <div className="flex items-center">
           {/* <img src="logo.png" alt="Logo" className="h-8" /> */}
-          <span className="ml-2 text-lg font-medium">solver</span>
+          <span className="ml-2 text-xl font-medium">solver</span>
         </div>
 
 
 
         {
-    navItems.map((navItem, index) =>             <a key={index}
-    href="d"
-    className="flex gap-2 items-center px-3 py-2 rounded-md text-sm font-medium leading-5  focus:outline-none focus:text-white focus:bg-gray-700"
+    navItems.map((navItem, index) =>             <NavLink key={index}
+    to={navItem.path}
+    className={({isActive})=> isActive ? activeClassName : normalClassName}
   >
     <navItem.icons />
     <span className="hidden md:block">{navItem.name}</span>
-  </a>
+  </NavLink>
     )
 }
 
   
 
         <div>
-          <a
-            href="#as"
-            className="flex gap-2 items-center px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 focus:outline-none focus:text-white focus:bg-gray-700"
+          <NavLink to="/"
+           
+           className={({isActive})=> isActive ? activeClassName : normalClassName}
           >
             <FiSettings />
-          </a>
+          </NavLink>
         </div>
       </div>
     </div>
