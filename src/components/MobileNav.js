@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from '../assets/images/logo.svg'
 import { FiSettings } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 import { activeClassName, navItems, normalClassName } from "../utils/navitems";
@@ -9,8 +9,8 @@ const MobileNav = () => {
     <div>
       <div className="flex items-center justify-between p-4">
         <div className="flex items-center">
-          {/* <img src="logo.png" alt="Logo" className="h-8" /> */}
-          <span className="ml-2 text-xl font-medium">solver</span>
+        <img src={logo} alt="Logo" className="h-6" />
+         
         </div>
 
 
