@@ -16,13 +16,13 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-white shadow-xl">
+    <nav className="bg-white" style={{boxShadow:'0px 1px 2px rgba(0, 0, 0, 0.25)'}}>
       <div className="container mx-auto">
 
       {width < 600 ?  <MobileNav/> : <DesktopNav />}
 
       
-          
+      {/* box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);    */}
      
       
 
