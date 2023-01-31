@@ -11,4 +11,4 @@ export const navItems = [
 
 
 export const activeClassName=" bg-primaryColor  px-1 py-1 md:px-3 md:py-2 rounded-full flex gap-2 items-center px-3 py-2  text-xl  leading-5 text-white "
-export const normalClassName="flex gap-2 items-center px-1 py-1 md:px-3 md:py-2 rounded-md text-xl  leading-5 text-primaryColor"
+export const normalClassName="flex gap-2 items-center p-1 md:px-3 md:py-2 rounded-md text-xl  leading-5 text-primaryColor"
