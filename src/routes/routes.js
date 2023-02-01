@@ -2,6 +2,7 @@
 import Main from "../Layout/Main";
 import ProfileLayout from "../Layout/ProfileLayout";
 import Ask from "../pages/Ask/Ask";
+import CommingSoon from "../pages/shared/Errors/CommingSoon";
 import NotFound from "../pages/shared/NotFound";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -29,7 +30,13 @@ const routes = createBrowserRouter([
     // user profile layout
     {
         path:'/users',
-        element:<ProfileLayout/>
+        element:<ProfileLayout/>,
+        children:[
+{
+    path:'*',
+    element:<CommingSoon/>
+}
+        ]
     }
 
 
