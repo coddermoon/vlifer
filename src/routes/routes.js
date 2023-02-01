@@ -1,5 +1,6 @@
 
 import Main from "../Layout/Main";
+import ProfileLayout from "../Layout/ProfileLayout";
 import Ask from "../pages/Ask/Ask";
 import NotFound from "../pages/shared/NotFound";
 
@@ -21,9 +22,16 @@ const routes = createBrowserRouter([
             {
                 path:'/find',
                 element:<Ask/>
-            }
+            },
+
         ],
+    },
+    // user profile layout
+    {
+        path:'/users',
+        element:<ProfileLayout/>
     }
+
 
 ])
 export default routes

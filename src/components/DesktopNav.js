@@ -8,7 +8,7 @@ import { activeClassName, navItems, normalClassName } from '../utils/navitems';
 const DesktopNav = () => {
     return (
         <div>
-       <div className="flex items-center justify-around p-4">
+       <div className="flex items-center justify-around px-4">
           <div className="flex items-center justify-center">
             <img src={logo} alt="Logo" className="h-8" />
             <span className="ml-2 hidden md:block text-xl font-medium text-primaryColor">Solver</span>
