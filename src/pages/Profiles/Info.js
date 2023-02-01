@@ -62,6 +62,12 @@ const Info = () => {
 
 </table>
 
+{/* description part */}
+<form className="description w-[80%] mx-auto">
+    <p>Description</p>
+    <textarea className='resize-none h-[100px] w-full mt-3 border border-darkShade'></textarea>
+</form>
+
 
 
           </div>
