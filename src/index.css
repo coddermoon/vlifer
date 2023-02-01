@@ -22,3 +22,7 @@ table, td {
   border:1px solid #8591A2;
   border-collapse: collapse;
 }
+
+.userNav{
+  border-top:.5px solid #8591A2
+}

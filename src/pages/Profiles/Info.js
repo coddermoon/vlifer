@@ -7,7 +7,7 @@ const Info = () => {
           <div className="info bg-white p-3 shadow-md">
 
             
-                <p className='text-primaryColor w-[80%] text-lg items-center justify-end gap-3 mx-auto px-2 flex'><FiEdit/> Edit</p>
+                <span className='text-primaryColor bg-bgColor w-[80%] text-lg items-center justify-end gap-3 mx-auto px-2 flex'><FiEdit/> Edit</span>
           
            
            {/* information table */}

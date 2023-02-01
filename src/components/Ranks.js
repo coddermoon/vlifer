@@ -6,10 +6,10 @@ import UserNav from "../pages/shared/Navbar/UserNav";
 const Ranks = () => {
   return (
     <div className="md:max-w-[50%] mx-auto bg-green-400 my-3">
-      <div className="bg-white py-3 px-8  shadow-md">
-        <div className="flex justify-between">
+      <div className="bg-white  shadow-md">
+        <div className="flex justify-between px-5 py-3 ">
           <div className="usersInfo flex items-center gap-5">
-            <div className="profilePic">
+            <div className="profilePic w-[120px] h-[120px] bg-bgColor flex items-center justify-center">
               <img src={userPhoto} alt="profile pic" />
             </div>
             {/* pfolile info */}
@@ -37,12 +37,13 @@ const Ranks = () => {
           </div>
         
         </div>
-<div className="userNav mt-5">
+        <div className="userNav   py-3   " >
     {/* NavLInks */}
 <UserNav/>
 </div>
 
       </div>
+
     </div>
   );
 };
