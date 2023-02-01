@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import DesktopNav from "../../components/DesktopNav";
-import MobileNav from "../../components/MobileNav";
+import DesktopNav from "../../../components/DesktopNav";
+import MobileNav from "../../../components/MobileNav";
 
 const Navbar = () => {
 
