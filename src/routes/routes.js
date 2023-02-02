@@ -7,6 +7,7 @@ import Find from "../pages/Find/Find";
 import Info from "../pages/Profiles/Info";
 import CommingSoon from "../pages/shared/Errors/CommingSoon";
 import NotFound from "../pages/shared/NotFound";
+import Mode from "../pages/ToolsPage/Mode";
 import Settings from "../pages/ToolsPage/Settings";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -61,7 +62,12 @@ const routes = createBrowserRouter([
                 path:'/tools/settings',
                 element:<Settings/>
 
-            }
+            },
+            {
+                path:'/tools/mode',
+                element:<Mode/>
+
+            },
         ]
     }
 

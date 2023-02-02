@@ -1,4 +1,5 @@
 import { AiOutlineBell, AiOutlineQuestionCircle, AiOutlineUser } from "react-icons/ai";
+import {MdOutlineLightMode } from "react-icons/md";
 
 import { FiSearch, FiSettings } from "react-icons/fi";
 
@@ -40,7 +41,7 @@ export const userSolvedNavItems = [
 
 export const toolItems = [
     {name: 'Ask',icons:AiOutlineQuestionCircle,path:'tools/ask'},
-    {name: 'Find',icons:FiSearch,path:'/tools/find'},
+    {name: 'Find',icons: MdOutlineLightMode ,path:'/tools/mode'},
     {name: 'You',icons:AiOutlineUser,path:'/tools/users'},
     {name: 'Bell',icons:AiOutlineBell,path:'/tools/bells'},
     {name: 'Bell',icons:AiOutlineBell,path:'/tools/bella'},
