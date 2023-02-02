@@ -29,3 +29,11 @@ export const userNavItems = [
 
 
 export const userActiveClassName = 'text-lg text-primaryColor'
+
+// user solveed navBar
+
+export const userSolvedNavItems = [
+    {name:'Ask',path:'/users/ask'},
+    {name:'Solved',path:'/users/ans'},
+
+]

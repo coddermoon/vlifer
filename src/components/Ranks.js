@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import userPhoto from "../assets/images/users.png";
 import UserNav from "../pages/shared/Navbar/UserNav";
+import UserSolvedNav from "../pages/shared/Navbar/UserSolvedNav";
 
 const Ranks = () => {
   return (
@@ -41,7 +42,11 @@ const Ranks = () => {
     {/* NavLInks */}
 <UserNav/>
 </div>
-
+{/* user static navbar */}
+<div className="userNav   py-3   " >
+    {/* NavLInks */}
+<UserSolvedNav/>
+</div>
       </div>
 
     </div>
