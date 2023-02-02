@@ -37,3 +37,12 @@ export const userSolvedNavItems = [
     {name:'Solved',path:'/users/ans'},
 
 ]
+
+export const toolItems = [
+    {name: 'Ask',icons:AiOutlineQuestionCircle,path:'tools/ask'},
+    {name: 'Find',icons:FiSearch,path:'/tools/find'},
+    {name: 'You',icons:AiOutlineUser,path:'/tools/users'},
+    {name: 'Bell',icons:AiOutlineBell,path:'/tools/bells'},
+    {name: 'Bell',icons:AiOutlineBell,path:'/tools/bella'},
+    {name: 'Bell',icons:AiOutlineBell,path:'/tools/bellf'},
+]

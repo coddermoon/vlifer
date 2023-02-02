@@ -30,7 +30,7 @@ const MobileNav = () => {
   
 
         <div>
-          <NavLink to="/"
+          <NavLink to="/tools"
            
            className={({isActive})=> isActive ? activeClassName : normalClassName}
           >

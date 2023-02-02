@@ -1,6 +1,7 @@
 
 import Main from "../Layout/Main";
 import ProfileLayout from "../Layout/ProfileLayout";
+import Tools from "../Layout/Tools";
 import Ask from "../pages/Ask/Ask";
 import Find from "../pages/Find/Find";
 import Info from "../pages/Profiles/Info";
@@ -41,6 +42,19 @@ const routes = createBrowserRouter([
     path:'/users/info',
     element: <Info/>
 }
+        ]
+    },
+
+    // tools layout
+
+    {
+        path:'/tools',
+        element:<Tools/>,
+        children:[
+            {
+                path:'*',
+                element:<CommingSoon/>
+            }
         ]
     }
 

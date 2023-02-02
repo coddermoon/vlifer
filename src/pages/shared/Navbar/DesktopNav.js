@@ -29,7 +29,7 @@ const DesktopNav = () => {
           </div>
           <div>
             <NavLink
-              to='/'
+              to='/tools'
               className={({isActive})=> isActive ? activeClassName : normalClassName}
             >
               <FiSettings /> Tools

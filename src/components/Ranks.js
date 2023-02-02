@@ -6,7 +6,7 @@ import UserSolvedNav from "../pages/shared/Navbar/UserSolvedNav";
 
 const Ranks = () => {
   return (
-    <div className="md:max-w-[50%] mx-auto bg-green-400 my-3">
+    <div className="md:max-w-[50%] mx-auto  my-3">
       <div className="bg-white  shadow-md">
         <div className="flex justify-between px-5 py-3 ">
           <div className="usersInfo flex items-center gap-5">
