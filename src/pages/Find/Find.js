@@ -1,20 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
 
-const FormBtn = {name:'Find',icons:FiSearch }
-const FormInputData  = {inputPlaceholder:'find a Problem'}
+const FormBtn = {name:'Filter',icons:FiSearch }
+const FormInputData  = {inputPlaceholder:'find your Problem'}
 
 const Find = () => {
+    const [focused,setFocused]= useState(false)
+    
     return (
         <div className='md:max-w-[50%] mx-auto bg-green-400 my-3'>
-            <div className="askForm bg-white p-6   shadow-md">
+            
+            <div className="askForm bg-white p-3   shadow-md">
 
-<form  className='flex gap-5'>
-    <input className='w-full rounded-full  p-2 border border-primaryColor placeholder:pl-3 placeholder:text-xl' type="text" placeholder='find your Problem' />
-    <button className='text-xl px-5 '>{FormBtn.name}</button>
-</form>
+                <form  className='flex gap-2'>
+                    <input
+                    onFocus={() => setFocused(true)}
+                    onBlur={() => setFocused(false)}
+                    
+                    className='w-full rounded-full bg-bgColor outline-darkShade outline-[0.5px] p-2  placeholder:pl-3 placeholder:text-xl placeholder:text-textColor ' type="text" placeholder={FormInputData.inputPlaceholder} />
 
-</div>
+                    {
+
+focused ? <button className='text-xl px-12  bg-bgColor  rounded-full'><FiSearch/></button>
+:
+<button className='text-xl px-12  bg-bgColor  rounded-full'>{FormBtn.name}</button>
+
+                    }
+                    
+                </form>
+
+            </div>
+
 
         </div>
     );

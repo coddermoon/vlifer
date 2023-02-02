@@ -2,6 +2,7 @@
 import Main from "../Layout/Main";
 import ProfileLayout from "../Layout/ProfileLayout";
 import Ask from "../pages/Ask/Ask";
+import Find from "../pages/Find/Find";
 import Info from "../pages/Profiles/Info";
 import CommingSoon from "../pages/shared/Errors/CommingSoon";
 import NotFound from "../pages/shared/NotFound";
@@ -23,7 +24,7 @@ const routes = createBrowserRouter([
             },
             {
                 path:'/find',
-                element:<Ask/>
+                element:<Find/>
             },
 
         ],
