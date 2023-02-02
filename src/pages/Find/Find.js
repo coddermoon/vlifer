@@ -21,9 +21,9 @@ const Find = () => {
 
                     {
 
-focused ? <button className='text-xl px-12  bg-bgColor  rounded-full'><FiSearch/></button>
+focused ? <button className='text-xl px-2  bg-bgColor  rounded-full transition-all'><FiSearch size={30}/></button>
 :
-<button className='text-xl px-12  bg-bgColor  rounded-full'>{FormBtn.name}</button>
+<button className='text-xl px-12  bg-bgColor  rounded-full transition-all'>{FormBtn.name}</button>
 
                     }
                     
