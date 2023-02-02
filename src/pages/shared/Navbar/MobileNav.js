@@ -1,8 +1,9 @@
 import React from "react";
-import logo from '../assets/images/logo.svg'
+import logo from '../../../assets/images/logo.svg'
 import { FiSettings } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
-import { activeClassName, navItems, normalClassName } from "../utils/navitems";
+import { activeClassName, navItems, normalClassName  } from "../../../utils/navitems";
+
 
 const MobileNav = () => {
   return (
