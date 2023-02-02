@@ -7,7 +7,7 @@ const Tools = () => {
     return (
         <div className="bg-bgColor min-h-screen text-textColor">
         <Navbar/>
-        <div className="md:max-w-[50%] mx-auto bg-white  my-1">
+        <div className="md:max-w-[50%] mx-auto bg-white  mt-3">
         <ToolsNav/>
       <Outlet/>
         </div>

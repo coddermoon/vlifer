@@ -1,6 +1,6 @@
 import { AiOutlineBell, AiOutlineQuestionCircle, AiOutlineUser } from "react-icons/ai";
 
-import { FiSearch } from "react-icons/fi";
+import { FiSearch, FiSettings } from "react-icons/fi";
 
 export const navItems = [
 {name: 'Ask',icons:AiOutlineQuestionCircle,path:'/ask'},
@@ -44,5 +44,5 @@ export const toolItems = [
     {name: 'You',icons:AiOutlineUser,path:'/tools/users'},
     {name: 'Bell',icons:AiOutlineBell,path:'/tools/bells'},
     {name: 'Bell',icons:AiOutlineBell,path:'/tools/bella'},
-    {name: 'Bell',icons:AiOutlineBell,path:'/tools/bellf'},
+    {name: 'Bell',icons:FiSettings ,path:'/tools/settings'},
 ]

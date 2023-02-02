@@ -7,6 +7,7 @@ import Find from "../pages/Find/Find";
 import Info from "../pages/Profiles/Info";
 import CommingSoon from "../pages/shared/Errors/CommingSoon";
 import NotFound from "../pages/shared/NotFound";
+import Settings from "../pages/ToolsPage/Settings";
 
 const { createBrowserRouter } = require("react-router-dom");
 
@@ -53,7 +54,13 @@ const routes = createBrowserRouter([
         children:[
             {
                 path:'*',
-                element:<CommingSoon/>
+                element:<CommingSoon/>,
+
+            },
+            {
+                path:'/tools/settings',
+                element:<Settings/>
+
             }
         ]
     }
