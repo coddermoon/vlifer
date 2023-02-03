@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { NavLink } from 'react-router-dom';
-import { activeClassName,  normalToolsClassName, toolItems } from '../../../utils/navitems';
+import {  normalActiveToolsClassName,  normalToolsClassName, toolItems } from '../../../utils/navitems';
 
 const ToolsNav = () => {
     return (
@@ -11,7 +11,7 @@ const ToolsNav = () => {
           {
       toolItems.map((navItem, index) =>             <NavLink key={index}
       to={navItem.path}
-      className={({isActive})=> isActive ? activeClassName : normalToolsClassName}
+      className={({isActive})=> isActive ? normalActiveToolsClassName : normalToolsClassName}
     >
       <navItem.icons />
     
