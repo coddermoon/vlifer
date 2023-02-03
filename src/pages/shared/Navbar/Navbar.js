@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white py-1 "  style={{boxShadow:'0px 1px 2px rgba(0, 0, 0, 0.25)'}}>
-      <div className="container mx-auto">
+      <div className=" mx-auto">
 
       {width < 600 ?  <MobileNav/> : <DesktopNav />}
 

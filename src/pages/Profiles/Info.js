@@ -3,8 +3,8 @@ import { FiEdit } from 'react-icons/fi';
 
 const Info = () => {
     return (
-        <div className='md:max-w-[50%] mx-auto bg-green-400 my-4 mt-5'>
-          <div className="info bg-white p-3 shadow-md">
+        <div className='md:max-w-[50%] mx-auto  my-4 mt-5'>
+          <div className="info bg-white p-3 custom-shadow">
 
             
                 <div className='w-[80%] mx-auto text-right'>

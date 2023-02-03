@@ -14,18 +14,19 @@ export const navItems = [
 
 // export css classs for main nevigations
 
-export const activeClassName=" bg-primaryColor  p-1  md:px-3 md:py-2 rounded-full flex gap-2 items-center px-3 py-2  text-lg  leading-5 text-white m-2"
-export const normalClassName="  p-1  md:px-3 md:py-2 rounded-full flex gap-2 items-center px-3 py-2   text-xl  leading-5 text-primaryColor hover:bg-bgColor m-2"
+export const activeClassName=" bg-primaryColor  p-2 md:px-3 md:py-2  rounded-full flex gap-2 items-center text-md  md:text-lg  leading-5 text-white m-2"
+export const normalClassName="  p-1  md:px-3 md:py-2 rounded-full flex gap-2 items-center   text-lg  leading-5 text-primaryColor hover:bg-bgColor m-2 hover:bg-bgColor"
+export const normalToolsClassName="hover:bg-bgColor  p-2  rounded-full flex gap-2 items-center   text-lg  leading-5 text-primaryColor m-2 "
 
 
 // user nav Items
 
 export const userNavItems = [
-    {name:'ask',path:'/users/ask'},
-    {name:'ans',path:'/users/ans'},
-    {name:'save',path:'/users/save'},
-    {name:'mate',path:'/users/mate'},
-    {name:'info',path:'/users/info'},
+    {name:'Ask',path:'/users/ask'},
+    {name:'Ans',path:'/users/ans'},
+    {name:'Save',path:'/users/save'},
+    {name:'Mate',path:'/users/mate'},
+    {name:'Info',path:'/users/info'},
 ]
 
 
@@ -36,6 +37,8 @@ export const userActiveClassName = 'text-lg text-primaryColor'
 export const userSolvedNavItems = [
     {name:'Ask',path:'/users/ask'},
     {name:'Solved',path:'/users/ans'},
+ 
+
 
 ]
 

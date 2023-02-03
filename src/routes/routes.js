@@ -5,6 +5,7 @@ import Tools from "../Layout/Tools";
 import Ask from "../pages/Ask/Ask";
 import Find from "../pages/Find/Find";
 import Info from "../pages/Profiles/Info";
+import UserAsk from "../pages/Profiles/UserAsk";
 import CommingSoon from "../pages/shared/Errors/CommingSoon";
 import NotFound from "../pages/shared/NotFound";
 import Mode from "../pages/ToolsPage/Mode";
@@ -43,6 +44,9 @@ const routes = createBrowserRouter([
 },{
     path:'/users/info',
     element: <Info/>
+},{
+    path:'/users/ask',
+    element:<UserAsk/>
 }
         ]
     },

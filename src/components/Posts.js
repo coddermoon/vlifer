@@ -4,12 +4,12 @@ const Posts = () => {
     return (
        
             
-            <div className="askForm bg-white  shadow-md mt-5">
+            <div className="askForm bg-white mt-5" style={{boxShadow:'0px 1px 2px rgba(0, 0, 0, 0.25)'}}>
 
-               <p className='text-xl   p-3 '><span className="heading text-textColor">The box will contain two lines of text. 1st the title of the problem will show.</span>
-<span className="paragraph text-darkShade text-lg">After the title lines empty spaces fill with details ask as word... </span><button className='text-primaryColor'> more</button></p>
+               <p className='text-xl text-justify   p-3 '><span className="heading text-textColor">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, voluptas?</span>
+<span className="paragraph text-darkShade text-lg">Lorem ipsum dolor sit amet consectetur  elit. Quos, soluta ... </span><button className='text-primaryColor'> more</button></p>
 
-<div className="footer flex justify-around items-center mt-3 userNav  p-3 ">
+<div className="footer flex justify-around items-center mt-1 userNav  p-2 ">
 
 
 

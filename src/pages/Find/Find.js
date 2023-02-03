@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
 
 const FormBtn = {name:'Filter',icons:FiSearch }
-const FormInputData  = {inputPlaceholder:'find your Problem'}
+const FormInputData  = {inputPlaceholder:'Find Your Problem'}
 
 const Find = () => {
     const [focused,setFocused]= useState(false)
@@ -10,7 +10,7 @@ const Find = () => {
     return (
         <div className='md:max-w-[50%] mx-auto bg-green-400 my-3'>
             
-            <div className="askForm bg-white p-3   shadow-md">
+            <div className="askForm bg-white p-3   custom-shadow">
 
                 <form  className='flex gap-2'>
                     <input

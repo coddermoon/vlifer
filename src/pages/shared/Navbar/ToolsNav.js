@@ -1,17 +1,17 @@
 import React from 'react';
 
 import { NavLink } from 'react-router-dom';
-import { activeClassName,  normalClassName, toolItems } from '../../../utils/navitems';
+import { activeClassName,  normalToolsClassName, toolItems } from '../../../utils/navitems';
 
 const ToolsNav = () => {
     return (
         <div className='border-bottom'>
-        <div className="flex items-center justify-between p-4">
+        <div className="flex items-center justify-around px-4 py-2">
 
           {
       toolItems.map((navItem, index) =>             <NavLink key={index}
       to={navItem.path}
-      className={({isActive})=> isActive ? activeClassName : normalClassName}
+      className={({isActive})=> isActive ? activeClassName : normalToolsClassName}
     >
       <navItem.icons />
     
