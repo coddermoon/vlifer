@@ -17,13 +17,13 @@ const Find = () => {
                     onFocus={() => setFocused(true)}
                     onBlur={() => setFocused(false)}
                     
-                    className='w-full rounded-full bg-bgColor outline-darkShade outline-[0.5px] p-2  placeholder:pl-3 placeholder:text-xl placeholder:text-textColor ' type="text" placeholder={FormInputData.inputPlaceholder} />
+                    className='w-full rounded-full bg-white border border-deepShade outline-none  p-2  placeholder:pl-3 placeholder:text-lg placeholder:text-textColor ' type="text" placeholder={FormInputData.inputPlaceholder} />
 
                     {
 
-focused ? <button className='text-xl px-2  bg-bgColor  rounded-full '><FiSearch size={30}/></button>
+focused ? <button className='text-xl px-2  bg-primaryColor  rounded-full  border border-deepShade '><FiSearch  className='text-white' size={25}/></button>
 :
-<button className='text-xl px-12  bg-bgColor  rounded-full '>{FormBtn.name}</button>
+<button className='text-xl px-12  bg-white  rounded-full  border border-deepShade '>{FormBtn.name}</button>
 
                     }
                     
