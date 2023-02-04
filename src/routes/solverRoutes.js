@@ -1,4 +1,5 @@
 
+import AuthenticationLayout from "../Layout/AuthenticationLayout";
 import Main from "../Layout/Main";
 import ProfileLayout from "../Layout/ProfileLayout";
 import Tools from "../Layout/Tools";
@@ -13,7 +14,20 @@ import Settings from "../pages/ToolsPage/Settings";
 
 const { createBrowserRouter } = require("react-router-dom");
 
-const routes = createBrowserRouter([
+
+
+const solverRoutes = createBrowserRouter([
+
+
+    // vlifer
+
+    {
+        path:'/',
+        element:<AuthenticationLayout/>
+    },
+
+
+    // solver
     {
         path:'/solver',
         element: <Main/>,
@@ -77,4 +91,4 @@ const routes = createBrowserRouter([
 
 
 ])
-export default routes
+export default solverRoutes
