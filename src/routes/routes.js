@@ -15,7 +15,7 @@ const { createBrowserRouter } = require("react-router-dom");
 
 const routes = createBrowserRouter([
     {
-        path:'/',
+        path:'/solver',
         element: <Main/>,
         children: [
             {
@@ -23,11 +23,11 @@ const routes = createBrowserRouter([
                 element: <NotFound/>
             },
             {
-                path:'/ask',
+                path:'/solver/ask',
                 element:<Ask/>
             },
             {
-                path:'/find',
+                path:'/solver/find',
                 element:<Find/>
             },
 
@@ -35,17 +35,17 @@ const routes = createBrowserRouter([
     },
     // user profile layout
     {
-        path:'/users',
+        path:'/solver/users',
         element:<ProfileLayout/>,
         children:[
 {
     path:'*',
     element:<CommingSoon/>
 },{
-    path:'/users/info',
+    path:'/solver/users/info',
     element: <Info/>
 },{
-    path:'/users/ask',
+    path:'/solver/users/ask',
     element:<UserAsk/>
 }
         ]
@@ -54,7 +54,7 @@ const routes = createBrowserRouter([
     // tools layout
 
     {
-        path:'/tools',
+        path:'/solver/tools',
         element:<Tools/>,
         children:[
             {
@@ -63,12 +63,12 @@ const routes = createBrowserRouter([
 
             },
             {
-                path:'/tools/settings',
+                path:'/solver/tools/settings',
                 element:<Settings/>
 
             },
             {
-                path:'/tools/mode',
+                path:'/solver/tools/mode',
                 element:<Mode/>
 
             },

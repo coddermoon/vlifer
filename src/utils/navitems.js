@@ -23,11 +23,11 @@ export const normalActiveToolsClassName="  p-2  rounded-full flex gap-2 items-ce
 // user nav Items
 
 export const userNavItems = [
-    {name:'Ask',path:'/users/ask'},
-    {name:'Ans',path:'/users/ans'},
-    {name:'Save',path:'/users/save'},
-    {name:'Mate',path:'/users/mate'},
-    {name:'Info',path:'/users/info'},
+    {name:'Ask',path:'/solver/users/ask'},
+    {name:'Ans',path:'/solver/users/ans'},
+    {name:'Save',path:'/solver/users/save'},
+    {name:'Mate',path:'/solver/users/mate'},
+    {name:'Info',path:'/solver/users/info'},
 ]
 
 
@@ -36,18 +36,18 @@ export const userActiveClassName = 'text-lg text-primaryColor'
 // user solveed navBar
 
 export const userSolvedNavItems = [
-    {name:'Ask',path:'/users/ask'},
-    {name:'Solved',path:'/users/ans'},
+    {name:'Ask',path:'/solver/users/ask'},
+    {name:'Solved',path:'/solver/users/ans'},
  
 
 
 ]
 
 export const toolItems = [
-    {name: 'Ask',icons:AiOutlineQuestionCircle,path:'tools/ask'},
-    {name: 'Find',icons: MdOutlineLightMode ,path:'/tools/mode'},
-    {name: 'You',icons:AiOutlineUser,path:'/tools/users'},
-    {name: 'Bell',icons:AiOutlineBell,path:'/tools/bells'},
-    {name: 'Bell',icons:AiOutlineBell,path:'/tools/bella'},
-    {name: 'Bell',icons:FiSettings ,path:'/tools/settings'},
+    {name: 'Ask',icons:AiOutlineQuestionCircle,path:'/solver/tools/ask'},
+    {name: 'Find',icons: MdOutlineLightMode ,path:'/solver/tools/mode'},
+    {name: 'You',icons:AiOutlineUser,path:'/solver/tools/users'},
+    {name: 'Bell',icons:AiOutlineBell,path:'/solver/tools/bells'},
+    {name: 'Bell',icons:AiOutlineBell,path:'/solver/tools/bella'},
+    {name: 'Bell',icons:FiSettings ,path:'/solver/tools/settings'},
 ]
