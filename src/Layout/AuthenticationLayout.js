@@ -6,7 +6,11 @@ const AuthenticationLayout = () => {
     return (
         <div className="bg-bgColor min-h-screen text-textColor">
         <VliferNav/>
-      <Outlet/>
+
+        <div className="md:max-w-[50%] mx-auto bg-white  mt-3">
+        <Outlet/>
+        </div>
+     
             </div>
     );
 };

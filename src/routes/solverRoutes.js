@@ -19,17 +19,12 @@ const { createBrowserRouter } = require("react-router-dom");
 const solverRoutes = createBrowserRouter([
 
 
-    // vlifer
 
-    {
-        path:'/',
-        element:<Main/>
-    },
 
 
     // solver
     {
-        path:'/solver',
+        path:'/',
         element: <Main/>,
         children: [
             {
@@ -37,11 +32,11 @@ const solverRoutes = createBrowserRouter([
                 element: <NotFound/>
             },
             {
-                path:'/solver/ask',
+                path:'/ask',
                 element:<Ask/>
             },
             {
-                path:'/solver/find',
+                path:'/find',
                 element:<Find/>
             },
 
@@ -49,17 +44,17 @@ const solverRoutes = createBrowserRouter([
     },
     // user profile layout
     {
-        path:'/solver/users',
+        path:'/users',
         element:<ProfileLayout/>,
         children:[
 {
     path:'*',
     element:<CommingSoon/>
 },{
-    path:'/solver/users/info',
+    path:'/users/info',
     element: <Info/>
 },{
-    path:'/solver/users/ask',
+    path:'/users/ask',
     element:<UserAsk/>
 }
         ]

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../assets/images/logo.svg";
+import logo from "../../../assets/images/vlifer.png";
 import { NavLink } from "react-router-dom";
 import { activeClassName, normalClassName } from "../../../utils/navitems";
 
@@ -11,7 +11,7 @@ const VliferNav = () => {
         <div className="flex items-center justify-center">
           <img src={logo} alt="Logo" className="h-8" />
           <span className="ml-2  text-xl font-medium text-primaryColor">
-            Solver
+            V-Lifer
           </span>
         </div>
       
