@@ -3,8 +3,10 @@ import { APPS } from "./constants"
 export const getApp = ()=>{
   const subdomain = getSubdomain(window.location.hostname)
 
+
   const main = APPS.find(app=>app.main)
-  console.log(main)
+  
+
 
 //   path selection
 

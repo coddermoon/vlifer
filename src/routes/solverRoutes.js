@@ -23,7 +23,7 @@ const solverRoutes = createBrowserRouter([
 
     {
         path:'/',
-        element:<AuthenticationLayout/>
+        element:<Main/>
     },
 
 
