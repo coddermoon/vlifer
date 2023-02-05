@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import ChangePass from "../Apps/Vlifer/Pages/Authentications/ChangePass";
 import Forgotten from "../Apps/Vlifer/Pages/Authentications/Forgotten";
 import InfoForm from "../Apps/Vlifer/Pages/Authentications/InfoForm";
+import Otp from "../Apps/Vlifer/Pages/Authentications/Otp";
 import AuthenticationLayout from "../Layout/AuthenticationLayout";
 
 export const mainRoutes = createBrowserRouter([
@@ -19,6 +20,11 @@ export const mainRoutes = createBrowserRouter([
         ,{
             path:'/personal-information',
             element:<InfoForm/>,
+        },
+    
+        {
+            path:'/otp-verification',
+            element:<Otp/>,
         }
     ]
 }
