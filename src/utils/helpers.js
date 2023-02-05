@@ -27,8 +27,21 @@ export const getSubdomain = (location)=>{
     // for localhost 
 
     const isLocalhost = locationparts.slice(-1)[0] === 'localhost'
+    
+  const isNetlify = locationparts.slice(-1)[0] === 'netlify'
    
-   if (isLocalhost)  sliceTill=-1
+   if (isLocalhost)  {
+    sliceTill=-1
 
-  return locationparts.slice(0, sliceTill).join('')
+  return locationparts.slice(0, sliceTill).join('');
+   }
+   if(isNetlify) {
+    return locationparts.slice(0, sliceTill).join('');
+
+   }
+
+
+  // for netlify 
+
+
 }
