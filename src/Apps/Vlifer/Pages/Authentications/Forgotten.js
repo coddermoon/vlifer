@@ -2,7 +2,7 @@ import React from 'react';
 
 const Forgotten = () => {
     return (
-        <div className='mt-8 min-h-[500px] custom-shadow flex items-center'>
+        <div className='mt-8 py-20 custom-shadow flex items-center'>
           <div className="min-w-[340px] mx-auto">
            <p className="text-center text-xl font-semibold text-textColor">Password setup form</p>
 
