@@ -2,11 +2,11 @@ import React from 'react';
 
 const InfoForm = () => {
     return (
-        <div className='my-8 py-20 custom-shadow flex items-center'>
+        <div className='my-8 py-10 custom-shadow flex items-center'>
           <div className="min-w-[340px] mx-auto">
            <p className="text-center text-xl font-semibold text-textColor">Fill this form for Solver perfect browsing .</p>
 
-           <form className='mt-16 '>
+           <form className='mt-10 '>
 
 <div className='grid grid-cols-2 gap-2'>
 <div className=' '>

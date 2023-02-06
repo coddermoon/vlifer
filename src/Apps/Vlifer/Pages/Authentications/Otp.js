@@ -2,10 +2,10 @@ import React from 'react';
 
 const Otp = () => {
     return (
-<div className=' mt-10 py-20 min-h-[500px] custom-shadow flex '>
+<div className=' mt-10 py-10  custom-shadow flex '>
           <div className="min-w-[340px] mx-auto">
-           <p className="text-center text-2xl font-bold text-textColor">Verification</p>
-           <p className='text-center text-xl mt-4 text-textColor'>We sent a otp code your <br />
+           <p className="text-center text-xl font-bold text-textColor">Verification</p>
+           <p className='text-center text-lg mt-4 text-textColor'>We sent a otp code your <br />
 Email - S**********Y </p>
 
            <form className='mt-10'>

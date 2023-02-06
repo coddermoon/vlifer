@@ -10,11 +10,11 @@ const Forgotten = () => {
 
 <div className='my-3'>
 <label htmlFor="NewPassword">New Password</label> <br />
-<input className='mt-1 w-full py-1 borderInputCustom rounded px-2 outline-none' name='newPassword' type="text" placeholder='new password'  />
+<input className='mt-1 w-full py-1 borderInputCustom rounded px-2 outline-none' name='newPassword' type="text"  />
 </div>
 <div className='my-3'>
 <label htmlFor="NewPassword">Confirm Password</label> <br />
-<input className='mt-1  w-full  py-1 borderInputCustom rounded px-2 outline-none' name='newPassword' type="text" placeholder='new password'  />
+<input className='mt-1  w-full  py-1 borderInputCustom rounded px-2 outline-none' name='newPassword' type="text"   />
 </div>
 
 
