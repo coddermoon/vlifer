@@ -2,6 +2,7 @@ import React from 'react';
 
 const Otp = () => {
     return (
+<div className="md:max-w-[50%] mx-auto bg-white  mt-3">
 <div className=' mt-10 py-10  custom-shadow flex '>
           <div className="min-w-[340px] mx-auto">
            <p className="text-center text-xl font-bold text-textColor">Verification</p>
@@ -24,6 +25,7 @@ Email - S**********Y </p>
 
           </div>
         </div>
+</div>
     );
 };
 

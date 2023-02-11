@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Signup = () => {
     return (
+<div className="md:max-w-[50%] mx-auto bg-white  mt-3">
 <div className='my-8 py-20 custom-shadow flex items-center'>
           <div className="min-w-[340px] mx-auto">
            <div className='flex items-center justify-between'>
@@ -45,6 +46,7 @@ const Signup = () => {
 
           </div>
         </div>
+</div>
     );
 };
 

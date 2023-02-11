@@ -2,7 +2,8 @@ import React from 'react';
 
 const ChangePass = () => {
     return (
-        <div className='mt-8 py-20 custom-shadow flex items-center'>
+<div className="md:max-w-[50%] mx-auto bg-white  mt-3">
+<div className='mt-8 py-20 custom-shadow flex items-center'>
           <div className="min-w-[340px] mx-auto">
            <p className="text-center text-xl font-semibold text-textColor">Password setup form</p>
 
@@ -29,6 +30,7 @@ const ChangePass = () => {
 
           </div>
         </div>
+</div>
     );
 };
 

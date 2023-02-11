@@ -26,16 +26,16 @@ export const getSubdomain = (location)=>{
 
     // for localhost 
 
-    const isLocalhost = locationparts.slice(-1)[0] === 'localhost'
+    // const isLocalhost = locationparts.slice(-1)[0] === 'localhost'
     
-  const isNetlify = locationparts.slice(-1)[0] === 'netlify'
+  const isDomain = locationparts.slice(-1)[0] === 'elifers'
    
-   if (isLocalhost)  {
-    sliceTill=-1
+  //  if (isLocalhost) {
+  //   sliceTill=-1
 
-  return locationparts.slice(0, sliceTill).join('');
-   }
-   if(isNetlify) {
+  // return locationparts.slice(0, sliceTill).join('');
+  //  }
+   if(isDomain) {
     return locationparts.slice(0, sliceTill).join('');
 
    }
