@@ -4,9 +4,11 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Login = () => {
     return (
-        <div className="md:max-w-[50%] mx-auto bg-white  mt-3">
-<div className='my-8 py-20 custom-shadow flex items-center'>
-          <div className="min-w-[340px] mx-auto">
+        <div className="min-h-[89vh] flex items-center justify-center">
+                    <div className="w-[90%] sm:w-[560px]   mx-auto bg-white custom-shadow ">
+<div className=' py-10 flex items-center'>
+<div className="flex mx-auto">
+<div className="min-w-[340px] mx-auto">
            <div className='flex items-center justify-between'>
             <NavLink  to="/login" className={({ isActive }) =>isActive ? 'text-xl text-primaryColor  w-1/3 text-center font-semibold border-b-4' : 'text-xl text-primaryColor  w-1/3 text-center  '}>Login </NavLink>
 
@@ -15,7 +17,7 @@ const Login = () => {
            
            </div>
 
-           <form className='mt-16'>
+           <form className='mt-10'>
 
 <div className='my-3'>
 <label htmlFor="email">Email Number</label> <br />
@@ -40,9 +42,12 @@ const Login = () => {
            </form>
 
           </div>
+</div>
         </div>
 
         </div>
+        </div>
+
 
     );
 };
