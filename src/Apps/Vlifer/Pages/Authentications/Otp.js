@@ -5,7 +5,7 @@ const Otp = () => {
     <div className="min-h-[89vh] flex items-center justify-center">
       <div className="w-[90%] sm:w-[560px]   mx-auto bg-white custom-shadow ">
         <div className="  flex ">
-          <div className="min-w-[340px] mx-auto my-28">
+          <div className="min-w-[340px] mx-auto my-24">
             <p className="text-center text-xl font-bold text-textColor">
               Verification
             </p>

@@ -2,12 +2,14 @@ import React from 'react';
 
 const Forgotten = () => {
     return (
-<div className="md:max-w-[50%] mx-auto bg-white  mt-3">
-<div className='my-8 py-20 custom-shadow flex items-center'>
+
+        <div  className="min-h-[89vh] flex items-center justify-center">
+<div className="w-[90%] sm:w-[560px]   mx-auto bg-white custom-shadow ">
+<div className='my-8 py-10 flex items-center'>
           <div className="min-w-[340px] mx-auto">
            <p className="text-center text-xl font-semibold text-textColor">Password setup form</p>
 
-           <form className='mt-16'>
+           <form className='mt-10'>
 
 <div className='my-3'>
 <label htmlFor="NewPassword">New Password</label> <br />
@@ -27,6 +29,8 @@ const Forgotten = () => {
           </div>
         </div>
 </div>
+        </div>
+
     );
 };
 

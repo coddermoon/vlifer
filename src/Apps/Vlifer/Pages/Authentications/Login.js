@@ -13,7 +13,7 @@ const Login = () => {
             <NavLink  to="/login" className={({ isActive }) =>isActive ? 'text-xl text-primaryColor  w-2/3 text-center font-semibold border-b-4' : 'text-xl text-primaryColor  w-2/3 text-center border-bgColor  border-b-4 '}>Login </NavLink>
 
 
-            <NavLink  to="/register" className={({ isActive }) =>isActive ? 'text-xl text-primaryColor  w-2/3 text-center font-semibold border-b-4' : 'text-xl text-primaryColor  w-2/3 text-center border-bgColor  border-b-4'}>register </NavLink>
+            <NavLink  to="/register" className={({ isActive }) =>isActive ? 'text-xl text-primaryColor  w-2/3 text-center font-semibold border-b-4' : 'text-xl text-primaryColor  w-2/3 text-center border-bgColor  border-b-4'}>Register </NavLink>
            
            </div>
 
