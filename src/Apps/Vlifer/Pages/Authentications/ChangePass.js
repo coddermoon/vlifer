@@ -2,12 +2,15 @@ import React from 'react';
 
 const ChangePass = () => {
     return (
-<div className="md:max-w-[50%] mx-auto bg-white  mt-3">
-<div className='mt-8 py-20 custom-shadow flex items-center'>
+
+        <div className="min-h-[89vh] flex items-center justify-center">
+
+<div  className="w-[90%] sm:w-[560px]   mx-auto bg-white custom-shadow ">
+<div className='py-10  flex items-center'>
           <div className="min-w-[340px] mx-auto">
            <p className="text-center text-xl font-semibold text-textColor">Password setup form</p>
 
-           <form className='mt-16'>
+           <form className='mt-10'>
 
 <div className='my-3'>
 <label htmlFor="NewPassword">Old Password</label> <br />
@@ -23,7 +26,7 @@ const ChangePass = () => {
 </div>
 
 
-<div className="btn text-center mt-16">
+<div className="btn text-center mt-10">
 <input className='bg-primaryColor px-4 rounded py-2 text-center text-white font-semibold ' type="submit" />
 </div>
            </form>
@@ -31,6 +34,9 @@ const ChangePass = () => {
           </div>
         </div>
 </div>
+
+        </div>
+
     );
 };
 

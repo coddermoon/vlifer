@@ -10,7 +10,7 @@ const Footer = () => {
         <footer className='bg-bgColor'>
         <div className="container mx-auto py-10">
 
-<div className="footer flex justify-between items-center">
+<div className="footer flex justify-around items-center">
 
     <div className="left flex gap-3">
         <img  className='w-20' src={logo}  alt="logo" />
