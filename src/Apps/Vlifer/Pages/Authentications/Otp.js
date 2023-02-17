@@ -2,9 +2,11 @@ import React from 'react';
 
 const Otp = () => {
     return (
-<div className="md:max-w-[50%] mx-auto bg-white  mt-3">
-<div className=' mt-10 py-10  custom-shadow flex '>
-          <div className="min-w-[340px] mx-auto">
+
+<div className="min-h-[89vh] flex items-center justify-center">
+<div className="w-[90%] sm:w-[560px]   mx-auto bg-white custom-shadow ">
+<div className='  flex '>
+          <div className="min-w-[340px] mx-auto my-28">
            <p className="text-center text-xl font-bold text-textColor">Verification</p>
            <p className='text-center text-lg mt-4 text-textColor'>We sent a otp code your <br />
 Email - S**********Y </p>
@@ -18,13 +20,14 @@ Email - S**********Y </p>
 </div>
 
 
-<div className="btn text-center mt-16">
+<div className="btn text-center mt-10">
 <input className='bg-primaryColor px-4 rounded py-2 text-center text-white font-semibold ' type="submit" />
 </div>
            </form>
 
           </div>
         </div>
+</div>
 </div>
     );
 };

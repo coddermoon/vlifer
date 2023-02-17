@@ -12,10 +12,11 @@ export const getApp = ()=>{
 
 if (!subdomain==="") return main.app
 
-  const app = APPS.find(app=>app.subdomain === subdomain)
 
-  
-  if(!app) return main.app;
+
+  const app = APPS.find(app=>app.subdomain === subdomain)
+  console.log(app,subdomain)
+if(!app) return main.app;
   return app.app
 
 }
@@ -28,7 +29,7 @@ export const getSubdomain = (location)=>{
 
     // const isLocalhost = locationparts.slice(-1)[0] === 'localhost'
     
-  const isDomain = locationparts.slice(-1)[0] === 'elifers'
+  const isDomain = locationparts.slice(-1)[0] === 'localhost'
    
   //  if (isLocalhost) {
   //   sliceTill=-1
