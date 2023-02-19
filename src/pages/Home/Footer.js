@@ -3,7 +3,7 @@ import { AiFillYoutube } from 'react-icons/ai';
 import { FaFacebookF, FaFacebookMessenger, FaWhatsapp } from 'react-icons/fa';
 import { MdMailOutline } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-import logo from '../../../../assets/images/vlifer.png'
+import logo from '../../assets/images/vlifer.png'
 
 const Footer = () => {
     return (

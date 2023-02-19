@@ -1,5 +1,5 @@
 import React from 'react';
-import solverLogo from '../../../../assets/images/logo.svg'
+import solverLogo from '../../assets/images/logo.svg'
 
 const ServiceCard = () => {
     return (
