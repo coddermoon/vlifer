@@ -1,0 +1,98 @@
+.solver {
+    background-image: url("https://i.ibb.co/BtxNxQQ/Screenshot-2023-02-21-134839-1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.cross {
+
+    position: absolute;
+    left: 980px;
+    background-color: #8591A2;
+    width: 39px;
+    height: 39px;
+    border-radius: 100px;
+}
+
+.register-form {
+
+    width: 560px;
+    height: 452px;
+
+
+}
+
+.contact-form {
+    width: auto;
+    height: 90vh;
+}
+
+
+.fotter-input {
+    position: relative;
+    left: 778px;
+    top: 420px;
+}
+
+.fotter-slider {
+    width: 600px;
+}
+
+.tools {
+    width: 660px;
+    height: 402px;
+}
+
+.buttons:hover {
+    background-color: #1479FF;
+    color: white;
+}
+
+.back-image {
+    background-image: url("https://i.ibb.co/BtxNxQQ/Screenshot-2023-02-21-134839-1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .fotter-slider {
+        width: 300px;
+    }
+
+    .fotter-input {
+        position: relative;
+        left: 35px;
+        top: 700px;
+        width: 370px;
+    }
+
+    .tools {
+        width: 330px;
+        height: 402px;
+        margin-right: 60px;
+        margin-left: 0px;
+    }
+
+    .register-form {
+
+        width: auto;
+        height: 452px;
+
+    }
+
+    .contact-form {
+        width: 50vw;
+        height: 80vh;
+    }
+
+
+    .cross {
+
+        position: absolute;
+        left: 340px;
+        background-color: #8591A2;
+        width: 39px;
+        height: 39px;
+        border-radius: 100px;
+    }
+}

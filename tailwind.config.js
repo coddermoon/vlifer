@@ -9,9 +9,9 @@ module.exports = {
       textColor: "#292D32",
       darkShade: "#8591A2",
       deepShade: "#C4DDFF",
-      white:'#fff'
+      white: '#fff'
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

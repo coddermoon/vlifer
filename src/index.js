@@ -4,11 +4,10 @@ import { RouterProvider } from 'react-router-dom';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
+import { mainRoutes } from './routes/mainRoutes';
 
 
-import { getApp } from './utils/helpers';
 
-const routes = getApp()
 
 
 
@@ -16,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
- <RouterProvider router={routes}/> 
+ <RouterProvider router={mainRoutes}/> 
 
   </React.StrictMode>
 );

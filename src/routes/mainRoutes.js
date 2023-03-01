@@ -1,15 +1,17 @@
 import { createBrowserRouter } from "react-router-dom";
-import ChangePass from "../Apps/Vlifer/Pages/Authentications/ChangePass";
-import Forgotten from "../Apps/Vlifer/Pages/Authentications/Forgotten";
-import InfoForm from "../Apps/Vlifer/Pages/Authentications/InfoForm";
-import Login from "../Apps/Vlifer/Pages/Authentications/Login";
-import Otp from "../Apps/Vlifer/Pages/Authentications/Otp";
-import Homepage from "../Apps/Vlifer/Pages/Home/Homepage/Homepage";
-import Signup from "../Apps/Vlifer/Pages/Signup";
+import ChangePass from "../pages/Authentications/ChangePass";
+import Forgotten from "../pages/Authentications/Forgotten";
+import InfoForm from "../pages/Authentications/InfoForm";
+import Login from "../pages/Authentications/Login";
+import Otp from "../pages/Authentications/Otp";
+
+
 import AuthenticationLayout from "../Layout/AuthenticationLayout";
 
 
 import NotFound from "../pages/shared/NotFound";
+import Signup from "../pages/Signup";
+import Homepage from "../pages/Home/Homepage/Homepage";
 
 export const mainRoutes = createBrowserRouter([
 {

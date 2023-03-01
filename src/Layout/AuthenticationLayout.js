@@ -4,14 +4,11 @@ import VliferNav from '../pages/shared/Navbar/VliferNav';
 
 const AuthenticationLayout = () => {
     return (
-        <div className="bg-bgColor min-h-screen text-textColor">
-        <VliferNav/>
+        <div className="bg-white min-h-screen text-textColor">
+            <Outlet />
 
-    
-        <Outlet/>
-     
-     
-            </div>
+
+        </div>
     );
 };
 
